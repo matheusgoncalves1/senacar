@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & family= Roboto:wght@400;900 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'robot', sans-serif;
+    font-weight: 900;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color:#3F75FF;
+}
+
+.cabecalho-logotipo {
+    margin-left: -100px;
+    height: 250px;
+}
+
+.cabecalho-pesquisa {
+    margin-left: -200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #ffff;
+}
+
+.cabecalho-pesquisa-caixa {
+    outline: 0;
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+
+    margin-left: 10px;
+}
+
+.cabecalho-pesquisa-lupa {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.cabecalho-registro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: -100px;
+}
+
+.cabecalho-registro-txt {
+    font-family: 'roboto',sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.cabecalho-registro-login {
+    margin-left: 40px;
+    height: 60px;
+    width: 60px;
+}
